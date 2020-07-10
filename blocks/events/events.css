@@ -38,5 +38,6 @@
   .events {
     margin: 22px 10px 80px;
     grid-template-columns: 1fr;
+    grid-row: 10px;
   }
 }

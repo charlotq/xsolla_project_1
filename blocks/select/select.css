@@ -17,6 +17,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 20px 40px 0 40px;
+    margin: 20px 10px 0;
   }
 }

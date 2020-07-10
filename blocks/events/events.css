@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 719px) {
   .events {
-    margin: 22px 40px 80px;
+    margin: 22px 10px 80px;
     grid-template-columns: 1fr;
   }
 }

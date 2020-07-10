@@ -27,8 +27,8 @@
 
 @media screen and (max-width: 719px) {
   .select__paragraph {
-    margin-top: 4px;
-    font-size: calc(100vw*0.03);
+    margin-top: 0;
+    font-size: 12px;
   }
 
   .select__paragraph:last-of-type {

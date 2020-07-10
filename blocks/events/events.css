@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 719px) {
   .events {
-    margin: 22px 10px 80px;
+    margin: 0 10px 10px;
     grid-template-columns: 1fr;
-    grid-row: 10px;
+    grid-gap: 10px;
   }
 }

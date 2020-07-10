@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 719px) {
   .main-block__header {
-    margin: 40px auto 0 10px;
+    margin: 10px auto 0 10px;
     font-size: calc(100vw*0.04);
   }
 }

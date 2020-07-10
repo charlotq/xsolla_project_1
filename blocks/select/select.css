@@ -1,0 +1,22 @@
+@import url('./__paragraph/select__paragraph.css');
+@import url('./__input/select__input.css');
+
+.select {
+  display: flex;
+  margin: 40px auto 0 100px;
+}
+
+@media screen and (max-width: 1279px) {
+  .select {
+    margin: 20px auto 0 60px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px 40px 0 40px;
+  }
+}

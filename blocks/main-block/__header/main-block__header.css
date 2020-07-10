@@ -1,0 +1,29 @@
+.main-block__header {
+  margin: 100px auto 0 100px;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.37;
+  color: #2E282C;
+}
+
+@media screen and (max-width: 1599px) {
+  .main-block__header {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .main-block__header {
+    margin: 60px auto 0 60px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .main-block__header {
+    margin: 40px auto 0 40px;
+    font-size: calc(100vw*0.04);
+  }
+}

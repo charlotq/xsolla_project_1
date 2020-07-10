@@ -1,0 +1,42 @@
+@import url('./__item/events__item.css');
+@import url('./__image/events__image.css');
+@import url('./__title/events__title.css');
+@import url('./__cover/events__cover.css');
+@import url('./__day/events__day.css');
+@import url('./__day-text/events__day-text.css');
+@import url('./__button/events__button.css');
+
+.events {
+  margin: 42px 100px 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-gap: 40px;
+}
+
+@media screen and (max-width: 1599px) {
+  .events {
+    grid-template-columns: repeat(2, 440px);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .events {
+    margin: 22px 60px 80px;
+    grid-template-columns: repeat(2, 362px);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .events {
+    grid-template-columns: repeat(1, 480px);
+  }
+}
+
+
+@media screen and (max-width: 719px) {
+  .events {
+    margin: 22px 40px 80px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,5 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/main-block/main-block.css');
+@import url('../blocks/select/select.css');
+@import url('../blocks/events/events.css');
